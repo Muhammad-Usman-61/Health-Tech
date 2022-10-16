@@ -278,10 +278,13 @@ body {
   border: #2ba84a solid 1px;
   border-radius: 5px;
   cursor: pointer;
+  color: #2ba84a;
+  transition: all 0.5s;
 }
 
 .intro .logout-btn:hover {
-  color: #2ba84a;
+  color: #fff;
+  background: #2ba84a;
 }
 .disease-selection {
   margin-bottom: 1rem;
@@ -355,6 +358,8 @@ body {
   filter: drop-shadow(2px 2px 3px #0003);
   transition: all 0.5s;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .submit-btn:hover {
