@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <img src="./images/logo.webp" alt="" /><span>Health</span>
+      </nav>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>Welcome, Username</h1>
+        <input type="button" class="logout-btn" value="Log Out" />
+      </div>
+      <div class="selection">
+        <div class="user-select">
+          <div class="disease-selection">
+            <span>Select Disease</span>
+            <select name="disease">
+              <option value="Allergies">Allergies</option>
+              <option value="Diarrhea">Diarrhea</option>
+              <option value="Malaria">Malaria</option>
+              <option value="Hepatitis C">Hepatitis C</option>
+              <option value="Influenza">Influenza</option>
+            </select>
+          </div>
+          <div class="doctor-selection">
+            <span>Select Doctor</span>
+            <select name="languages">
+              <option value="doc1">Dr. Joseph Fack</option>
+              <option value="doc2">Dr. Mila Durphey</option>
+              <option value="doc3">Dr. Paxton Brunner</option>
+              <option value="doc4">Dr. Brantley Komada</option>
+              <option value="doc5">Dr. Lyle Hatori</option>
+            </select>
+          </div>
+          <div class="date-selection">
+            <span>Select Date</span>
+            <input type="date" name="#" id="#" />
+          </div>
+
+          <input type="button" class="submit-btn" value="Get Token" />
+        </div>
+        <div class="current-tokenNo">
+          <div>
+            <h1>Waiting Token No. List</h1>
+            <p>21</p>
+            <p>22</p>
+            <p>23</p>
+            <p>25</p>
+            <p>26</p>
+          </div>
+          <div class="hours">
+            <h2>Busy Hours</h2>
+            <p>09:00 - 12-00</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

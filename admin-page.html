@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <img src="./images/logo.webp" alt="" /><span>Health</span>
+      </nav>
+    </header>
+    <main>
+      <div class="admin-content">
+        <h1>Generate Token</h1>
+      </div>
+      <div class="generate">
+        <div class="user-select">
+          <form>
+            <label for="text">Enter Patient Name</label>
+            <input type="text" placeholder="Enter Username" />
+            <label for="text">Enter Patient Telephone No</label>
+            <input type="tel" placeholder="Enter Telephone No" />
+          </form>
+          <div class="disease-selection">
+            <span>Select Disease</span>
+            <select name="disease">
+              <option value="Allergies">Allergies</option>
+              <option value="Diarrhea">Diarrhea</option>
+              <option value="Malaria">Malaria</option>
+              <option value="Hepatitis C">Hepatitis C</option>
+              <option value="Influenza">Influenza</option>
+            </select>
+          </div>
+          <div class="doctor-selection">
+            <span>Select Doctor</span>
+            <select name="languages">
+              <option value="doc1">Dr. Joseph Fack</option>
+              <option value="doc2">Dr. Mila Durphey</option>
+              <option value="doc3">Dr. Paxton Brunner</option>
+              <option value="doc4">Dr. Brantley Komada</option>
+              <option value="doc5">Dr. Lyle Hatori</option>
+            </select>
+          </div>
+          <div class="date-selection">
+            <span>Select Date</span>
+            <input type="date" name="#" id="#" />
+          </div>
+          <input type="button" class="submit-btn" value="Generate Token" />
+        </div>
+        <div class="analytics">
+          <h1>Analytics</h1>
+          <div  class="sub-analytics">
+              <div class="past">
+                  <div class="past-history">
+                    <h2>Patient Past History</h2>
+                    <p>Patient Name visited 3 times on</p>
+                    <p>13/10/2021</p>
+                    <p>25/03/2022</p>
+                    <p>19/06/2022</p>
+                  </div>
+                  <div class="frame">
+                    <div class="center">
+                      <div class="card">
+                        <div class="header">
+                          <p>
+                            <span class="title bold">WEEKLY REPORT</span>
+                            <span>01. Sep - 07. Sep</span>
+                          </p>
+                          <p>
+                            <span class="title right">Total Patients</span>
+                            <span class="bold">178</span>
+                          </p>
+                        </div>
+                        <div class="body">
+                          <div class="legend">
+                            <span class="data1">Tokens Generated</span
+                            ><span class="data2">Tokens Used</span>
+                          </div>
+                          <svg
+                            version="1.2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            class="graph"
+                            aria-labelledby="title"
+                            role="img"
+                            width="100%"
+                            height="100%"
+                          >
+                            <title id="title">
+                              A line chart showing token's information
+                            </title>
+                            <g class="grid x-grid" id="xGrid">
+                              <line x1="0" x2="230" y1="1" y2="1"></line>
+                            </g>
+                            <g class="grid x-grid" id="xGrid">
+                              <line x1="0" x2="230" y1="40" y2="40"></line>
+                            </g>
+                            <g class="grid x-grid" id="xGrid">
+                              <line x1="0" x2="230" y1="80" y2="80"></line>
+                            </g>
+                            <g class="labels x-labels">
+                              <text x="0" y="100">MON</text>
+                              <text x="35" y="100">TUE</text>
+                              <text x="70" y="100">WED</text>
+                              <text x="105" y="100">THU</text>
+                              <text x="140" y="100">FRI</text>
+                              <text x="175" y="100">SAT</text>
+                              <text x="205" y="100">SUN</text>
+                            </g>
+                            <g class="data1">
+                              <circle cx="12" cy="50" r="3"></circle>
+                              <circle cx="45" cy="20" r="3"></circle>
+                              <line x1="12" x2="45" y1="50" y2="20"></line>
+                              <circle cx="80" cy="28" r="3"></circle>
+                              <line x1="45" x2="80" y1="20" y2="28"></line>
+                              <circle cx="115" cy="18" r="3"></circle>
+                              <line x1="80" x2="115" y1="28" y2="18"></line>
+                              <circle cx="115" cy="18" r="3"></circle>
+                              <line x1="115" x2="155" y1="18" y2="40"></line>
+                              <circle cx="155" cy="40" r="3"></circle>
+                              <line x1="155" x2="185" y1="40" y2="50"></line>
+                              <circle cx="185" cy="50" r="3"></circle>
+                              <line x1="185" x2="215" y1="50" y2="20"></line>
+                              <circle cx="215" cy="20" r="3"></circle>
+                            </g>
+                            <g class="data2">
+                              <circle cx="12" cy="70" r="3"></circle>
+                              <circle cx="45" cy="55" r="3"></circle>
+                              <line x1="12" x2="45" y1="70" y2="55"></line>
+                              <circle cx="80" cy="75" r="3"></circle>
+                              <line x1="45" x2="80" y1="55" y2="75"></line>
+                              <circle cx="115" cy="58" r="3"></circle>
+                              <line x1="80" x2="115" y1="75" y2="58"></line>
+                              <circle cx="115" cy="58" r="3"></circle>
+                              <line x1="115" x2="155" y1="58" y2="50"></line>
+                              <circle cx="155" cy="50" r="3"></circle>
+                              <line x1="155" x2="185" y1="50" y2="60"></line>
+                              <circle cx="185" cy="60" r="3"></circle>
+                              <line x1="185" x2="215" y1="60" y2="55"></line>
+                              <circle cx="215" cy="55" r="3"></circle>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          
+
+          <div class="current-tokenNo">
+            <div>
+              <h1>Waiting Token No. List</h1>
+              <p>21</p>
+              <p>22</p>
+              <p>23</p>
+              <p>25</p>
+              <p>26</p>
+            </div>
+          </div>
+          </div>
+    </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

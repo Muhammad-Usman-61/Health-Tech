@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health</title>
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <img src="./images/logo.webp" alt="" /><span>Health</span>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="hero">
+        <img src="./images/logo.webp" alt="" />
+        <h1>Get Your Token Ready Online</h1>
+        <p>
+          For any health concern, online token generator for appointments with
+          verified doctors in all specialists
+        </p>
+      </div>
+      <div class="form-modal">
+        <div class="form-toggle">
+          <button id="login-toggle" onclick="toggleLogin()">log in</button>
+          <button id="signup-toggle" onclick="toggleSignup()">sign up</button>
+        </div>
+
+        <div id="login-form">
+          <form>
+            <input type="text" placeholder="Enter Username" />
+            <input type="tel" placeholder="Enter Telephone No" />
+            <button type="button" class="btn login">login</button>
+            <p><a href="javascript:void(0)">Forgotten account</a></p>
+            <hr />
+          </form>
+        </div>
+
+        <div id="signup-form">
+          <form>
+            <input type="text" placeholder="Enter Your Name" />
+            <input type="tel" placeholder="Enter Telephone No" />
+            <input type="password" placeholder="Create password" />
+            <button type="button" class="btn signup">create account</button>
+            <p>
+              Clicking <strong>create account</strong> means that you are agree
+              to our <a href="javascript:void(0)">terms of services</a>.
+            </p>
+            <hr />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
